@@ -80,4 +80,4 @@ for token in recipes:
         print(token.similarity(token_))
 
 """ When using a simpler language model such as 'en_core_web_sm' as above when comparing recipes and complaints, the accuracy 
-of similarity comparison wont be as accurate """
+of similarity comparison wont be as accurate because no word vectors will be loaded"""
